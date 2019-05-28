@@ -2,140 +2,125 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-style: normal;
+}
+
 header {
-width: 100vw;
-height: 137px;
-padding: 0px;
-background: #FFFFFF;
-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
+  width: 100vw;
+  height: 100px;
 }
 
-ul{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-li{
-  list-style: none;
+.nav__lists {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
-  margin-right: 25px;
+  align-items: center;
 }
 
-.bouton{
-  position: absolute;
-  width: 44px;
-  height: 20px;
-  left: 1375.5px;
-  top: 15px;
-  border: 1px solid #000000;
-  border-radius: 10px;
+.logo {
+  max-width: 70%;
+}
+
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__container {
+  height: 2400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tchat{
-  position: absolute;
-  width: 797px;
-  height: 529px;
-  left: 589px;
-  top: 197px;
+  width: 65%;
+  height: 100%;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .chaine{
-  position: absolute;
-  width: 286px;
+  width: 25%;
   height: 529px;
-  left: 81px;
-  top: 197px;
   background: #EFEFEF;
   border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.chaine__content--selected {
+  color: #E67D1C;
 }
 
 .profil1{
-  position: absolute;
   width: 287px;
   height: 423px;
-  left: 80px;
-  top: 809px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .publication1{
-  position: absolute;
   width: 797px;
   height: 423px;
-  left: 589px;
-  top: 809px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .publication2{
-  position: absolute;
   width: 797px;
   height: 423px;
-  left: 80px;
-  top: 1335px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .profil2{
-  position: absolute;
   width: 286px;
   height: 423px;
-  left: 1000px;
-  top: 1332px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .publication3{
-  position: absolute;
   width: 797px;
   height: 423px;
-  left: 80px;
-  top: 1335px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .profil3{
-  position: absolute;
   width: 286px;
   height: 423px;
-  left: 1000px;
-  top: 1332px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .publication4{
-  position: absolute;
   width: 797px;
   height: 423px;
-  left: 589px;
-  top: 1855px;
   background: #EFEFEF;
   border-radius: 10px;
 }
 
 .profil4{
-  position: absolute;
   width: 287px;
   height: 423px;
-  left: 80px;
-  top: 1855px;
   background: #EFEFEF;
   border-radius: 10px;
 }
