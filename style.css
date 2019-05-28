@@ -23,15 +23,31 @@ ul{
 
 li{
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+
+.bouton{
+  position: absolute;
+  width: 44px;
+  height: 20px;
+  left: 1375.5px;
+  top: 15px;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 .tchat{
   position: absolute;
   width: 797px;
   height: 529px;
-  left: 489px;
+  left: 589px;
   top: 197px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .chaine{
@@ -41,6 +57,7 @@ li{
   left: 81px;
   top: 197px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .profil1{
@@ -50,13 +67,14 @@ li{
   left: 80px;
   top: 809px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .publication1{
   position: absolute;
   width: 797px;
   height: 423px;
-  left: 489px;
+  left: 589px;
   top: 809px;
   background: #EFEFEF;
   border-radius: 10px;
@@ -79,6 +97,7 @@ li{
   left: 1000px;
   top: 1332px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .publication3{
@@ -98,15 +117,17 @@ li{
   left: 1000px;
   top: 1332px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .publication4{
   position: absolute;
   width: 797px;
   height: 423px;
-  left: 489px;
+  left: 589px;
   top: 1855px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 .profil4{
@@ -116,6 +137,7 @@ li{
   left: 80px;
   top: 1855px;
   background: #EFEFEF;
+  border-radius: 10px;
 }
 
 footer{
@@ -124,14 +146,58 @@ footer{
   height: 362px;
   left: 0px;
   top: 2328px;
-  background: #EFEFEF;
+  border-radius: 10px;
 }
 
-.footer{
+h1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mention{
   position: absolute;
   width: 100vw;
   height: 58px;
   left: 0px;
   top: 310px;
   background: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.telecharge1{
+  position: absolute;
+  width: 197px;
+  height: 55px;
+  left: 135px;
+  top: 120px;
+  background-color: black;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.telecharge2{
+  position: absolute;
+  width: 197px;
+  height: 55px;
+  left: 135px;
+  top: 220px;
+  background-color: black;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
