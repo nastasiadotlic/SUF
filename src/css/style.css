@@ -16,28 +16,37 @@ header {
 .nav {
   width: 100vw;
   height: 100px;
+  display: flex;
+  justify-content: center;
 }
 
-.nav__lists {
+.lists {
+  width: 80vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   max-width: 70%;
+  margin-top: 20px; 
 }
 
+.lists__language {
+  padding: 8px;
+  border: solid black 1px;
+  border-radius: 8px;
+}
 
-.section {
+.forum {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__container {
-  height: 2400px;
+.forum__container {
+  height: 670px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -56,11 +65,35 @@ header {
   border-radius: 10px;
 }
 
+.subscription {
+  height: 100%;
+}
+
+.subscription__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.general {
+  padding: 8px 20px 8px 20px;
+  border-radius: 10px 0px 0px 0px;
+  background-color: #E67D1C;
+}
+
+.mychanels {
+  padding: 8px 20px 8px 20px;
+  border-radius: 0px 10px 0px 0px;
+  background: #EFEFEF;
+}
+
+.mychanels__container {
+  width: 300px;
+}
+
 .chaine{
-  width: 25%;
   height: 529px;
   background: #EFEFEF;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 10px;
   padding-left: 20px;
   padding-top: 30px;
 }
@@ -69,120 +102,176 @@ header {
   color: #E67D1C;
 }
 
-.profil1{
-  width: 287px;
-  height: 423px;
+.chaine__content {
+  margin-top: 10px;
+}
+
+.members {
+  height: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profil {
+  width: 300px;
+  height: 500px;
   background: #EFEFEF;
   border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.publication1{
-  width: 797px;
-  height: 423px;
+.profil__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 420px;
+  justify-content: space-evenly;
+}
+
+.profil__name {
+  font-family: 'The Only Exception';
+  font-size: 20px;
+}
+
+.profil__text {
+  line-height: 1.5;
+}
+
+.profil__pictos {
+  max-width: 25%;
+  margin-top: 40px;
+}
+
+.recipe {
+  width: 65%;
+  height: 500px;
   background: #EFEFEF;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.publication2{
-  width: 797px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
+.recipe__content {
+  height: 90%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.profil2{
-  width: 286px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
+.recipe__content--pair {
+  margin-left: 0px;
+  margin-right: 50px;
 }
 
-.publication3{
-  width: 797px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
+.recipe__title {
+  font-family: 'The Only Exception';
 }
 
-.profil3{
-  width: 286px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
-}
-
-.publication4{
-  width: 797px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
-}
-
-.profil4{
-  width: 287px;
-  height: 423px;
-  background: #EFEFEF;
-  border-radius: 10px;
-}
-
-footer{
-  position: absolute;
-  width: 100vw;
-  height: 362px;
-  left: 0px;
-  top: 2328px;
-  border-radius: 10px;
-}
-
-h1{
+.steps {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
 }
 
-.mention{
-  position: absolute;
+.steps__dot {
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.recipe__button {
+  width: 150px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  padding: 8px 27px 8px 27px;
+  background-color: #272727;
+  font-size: 14px;
+}
+
+.recipe__pictos {
+  max-width: 50%;
+  margin-left: 30px;
+}
+
+.footer {
   width: 100vw;
-  height: 58px;
-  left: 0px;
-  top: 310px;
-  background: black;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
+  background-color: #EFEFEF;
 }
 
-.telecharge1{
-  position: absolute;
-  width: 197px;
-  height: 55px;
-  left: 135px;
-  top: 120px;
-  background-color: black;
-  border-radius: 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 14px;
-  line-height: 21px;
-  color: #FFFFFF;
+.footer__flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.telecharge2{
-  position: absolute;
-  width: 197px;
-  height: 55px;
-  left: 135px;
-  top: 220px;
-  background-color: black;
-  border-radius: 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 14px;
-  line-height: 21px;
-  color: #FFFFFF;
+.footer__container {
+  width: 80vw;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
 }
+
+.download {
+  height: 200px;
+  width: 197px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.download__title {
+  font-weight: bold;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact__title {
+  font-weight: bold;
+}
+
+.about {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about__title {
+  font-weight: bold;
+}
+
+.credits {
+  height: 70px;
+  background-color: #272727; 
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits__container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.credits__pictos {
+  width: 12%;
+  height: 12%;
+}
+
+
